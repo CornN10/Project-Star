@@ -214,6 +214,7 @@ video {
 .videoDiv {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1030px) {
