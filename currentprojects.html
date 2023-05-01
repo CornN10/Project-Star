@@ -7,6 +7,7 @@
 		<meta name="description" content="Project Star" />
 		<title>Project Star</title>
 		<link rel="stylesheet" href="styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.global.min.js"></script>
 	</head>
 	<body>
 		<div id="nav">
@@ -18,10 +19,18 @@
 					<a href="about.html">About us</a>
 					<a href="pastevents.html">Past Events</a>
 					<a href="currentprojects.html">Current Projects</a>
-					<a href="photogallery.html">Photo Gallery</a>
+					<a href="photogallery.html">Photos</a>
 					<a href="partnerships.html">Partnerships</a>
 					<a href="management.html">Management</a>
 					<a href="joinus.html">Join Us</a>
+					<div class="socials">
+						<a href="https://www.facebook.com/BPSProjectStar/" target="_blank"
+							><img src="facebook.svg" class="socialIcons"
+						/></a>
+						<a href="https://www.instagram.com/bps.projectstar/?hl=en" target="_blank"
+							><img src="instagram.svg" class="socialIcons"
+						/></a>
+					</div>
 				</div>
 			</nav>
 		</div>
@@ -37,6 +46,8 @@
 					headquarters.
 				</h2>
 			</article>
+
+			<div id="calendar"></div>
 		</div>
 
 		<div id="slides0" class="slides">
@@ -54,5 +65,6 @@
 		</div>
 
 		<script src="slides.js"></script>
+		<script src="calendar.js"></script>
 	</body>
 </html>
